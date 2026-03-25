@@ -1,8 +1,0 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/aboutme/whydev/page": "app/aboutme/whydev/page.js",
-  "/aboutme/goal/page": "app/aboutme/goal/page.js",
-  "/tools/page": "app/tools/page.js",
-  "/aboutme/fav/page": "app/aboutme/fav/page.js",
-  "/page": "app/page.js"
-}
