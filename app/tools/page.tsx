@@ -46,8 +46,8 @@ const tools = [
 const videos = [
   {
     id: 1,
-    title: "วิธีสร้าง Personal Website ด้วย Next.js",
-    desc: "สรุปขั้นตอนตั้งแต่เริ่มต้นจนถึง Deploy บน Vercel",
+    title: "Pika Ai Chatbot (Demo)",
+    desc: "Pika Ai Chatbot ที่ผมสร้างขึ้นมาเพื่อทดลองใช้ OpenAI API ในการสร้างแชทบอทที่สามารถตอบคำถามและสนทนาได้อย่างเป็นธรรมชาติ(มั้ง)",
     src: "https://youtu.be/DD20J8xRRzk",
     type: "youtube" as const,
     duration: "1:00",
