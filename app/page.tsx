@@ -212,12 +212,13 @@ export default function HomePage() {
         </FadeIn>
 
         <div className="flex flex-col gap-2">
-          {tools.map((tool, i) => (
-            <FadeIn key={tool.href} delay={i * 0.08}>
-              <Link
-                href={tool.href}
-                className="group flex items-center justify-between p-4 rounded-xl bg-surface border border-border hover:border-accent/40 hover:bg-accent/5 transition-all duration-200"
-              >
+          {tools.map((tool, i) => {
+            const isScrollTop = tool.href === "/";
+            const sharedClass =
+              "group flex items-center justify-between p-4 rounded-xl bg-surface border border-border hover:border-accent/40 hover:bg-accent/5 transition-all duration-200 w-full text-left";
+
+            const inner = (
+              <>
                 <div className="flex items-center gap-3">
                   <Sparkles
                     size={15}
@@ -245,9 +246,26 @@ export default function HomePage() {
                     className="text-muted opacity-0 group-hover:opacity-100 transition-opacity"
                   />
                 </div>
-              </Link>
-            </FadeIn>
-          ))}
+              </>
+            );
+
+            return (
+              <FadeIn key={tool.href} delay={i * 0.08}>
+                {isScrollTop ? (
+                  <button
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                    className={sharedClass}
+                  >
+                    {inner}
+                  </button>
+                ) : (
+                  <Link href={tool.href} className={sharedClass}>
+                    {inner}
+                  </Link>
+                )}
+              </FadeIn>
+            );
+          })}
         </div>
       </section>
     </div>
