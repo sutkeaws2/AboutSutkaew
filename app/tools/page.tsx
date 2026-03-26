@@ -10,7 +10,7 @@ import { BracesIcon } from "lucide-react";
 
 const tools = [
   {
-    href: "#",
+    href: "/",
     icon: Globe,
     title: "Personal Website",
     desc: "เว็บไซต์ส่วนตัวที่ทำด้วย Next.js + Tailwind CSS",
