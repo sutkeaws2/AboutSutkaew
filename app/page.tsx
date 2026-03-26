@@ -48,7 +48,7 @@ const aboutCards = [
 
 const tools = [
   {
-    href: "#",
+    href: "/",
     title: "Personal Website",
     desc: "เว็บไซต์ส่วนตัวที่กำลังเปิดอยู่นี้",
     badge: "live",
