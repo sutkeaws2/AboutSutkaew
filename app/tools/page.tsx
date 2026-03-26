@@ -92,7 +92,7 @@ export default function ToolsPage() {
         {tools.map((tool, i) => (
           <FadeIn key={tool.title} delay={i * 0.08}>
             <Link
-              href={tool.href} target="_blank"
+              href={tool.href}
               className="group flex items-start gap-4 p-5 rounded-xl bg-surface border border-border hover:border-accent/40 hover:bg-accent/5 transition-all duration-200"
             >
               <div className="mt-0.5 p-2 rounded-lg bg-bg border border-border group-hover:border-accent/30 transition-colors">
