@@ -30,7 +30,7 @@ const tools = [
     icon: Braces,
     title: "Morse Code Translator",
     desc: "แปลงข้อความเป็นรหัสมอร์สและกลับกัน",
-    tags: ["JavaScript", "HTML", "CSS"],
+    tags: ["html", "javascript", "css"],
     status: "live",
   },
   {
