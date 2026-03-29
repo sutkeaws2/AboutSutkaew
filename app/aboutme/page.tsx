@@ -81,6 +81,7 @@ export default function AboutPage() {
             { href: "/aboutme/whydev", title: "ทำไมถึงเป็นนักพัฒนา?", desc: "อะไรที่ทำให้ผมสนใจการเขียนโปรแกรม?" },
             { href: "/aboutme/goal", title: "เป้าหมายในอนาคต?", desc: "ผมอยากเป็นอะไรในอนาคต?" },
             { href: "/aboutme/how_i_started", title: "เริ่มได้ยังไง?", desc: "ผมเริ่มต้นการพัฒนาโปรแกรมอย่างไร?" },
+            { href: "/aboutme/fav", title: "บุคคลที่ผมชอบ", desc: "ใครเป็นคนที่ผมชอบและทำไม?" },
             { href: "/aboutme/other", title: "เรื่องอื่นๆ ที่อยากแบ่งปัน", desc: "เรื่องอื่นๆ ไม่รู้ว่าจะเอาไปใส่ไว้ตรงไหน" },
           ].map((item) => (
             <Link
