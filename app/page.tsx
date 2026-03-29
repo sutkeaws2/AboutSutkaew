@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import DiscordStatus from "@/components/DiscordStatus";
+import { title } from "process";
 
 const socialLinks = [
   { href: "https://github.com/waektus", icon: Github, label: "GitHub" },
@@ -27,23 +28,23 @@ const socialLinks = [
 
 const aboutCards = [
   {
-    href: "/aboutme/name",
-    title: "ทำไมถึงใช้ชื่อนี้?",
-    desc: "ที่มาของชื่อที่ผมใช้บนอินเตอร์เน็ต",
-    icon: "✦",
-  },
-  {
-    href: "/aboutme/fav",
-    title: "ศิลปินคนโปรด",
-    desc: "แน่นอนว่าจะเป็นใครไปไม่ได้",
-    icon: "✜",
-  },
-  {
     href: "/aboutme",
     title: "เกี่ยวกับผม",
     desc: "ดูข้อมูลเพิ่มเติม",
     icon: "◈",
   },
+  {
+    href: "/tools",
+    title: "ผลงาน",
+    desc: "เป็นโปรเจกต์ที่ผมทำขึ้นมา",
+    icon: "✚",
+  },
+  {
+    href:"/contacts",
+    title: "ติดต่อผม",
+    desc: "ช่องทางการติดต่อผม",
+    icon: "✉",
+  }
 ];
 
 const tools = [
