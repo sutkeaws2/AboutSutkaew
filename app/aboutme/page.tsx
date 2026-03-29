@@ -77,9 +77,11 @@ export default function AboutPage() {
         </h2>
         <div className="flex flex-col gap-2">
           {[
-            { href: "/aboutme/name", title: "ที่มาของชื่อ", desc: "ใครเป็นคนตั้งชื่อให้แล้วชอบมั้ย?" },
+            { href: "/aboutme/name", title: "ที่มาของชื่อ?", desc: "ใครเป็นคนตั้งชื่อให้แล้วชอบมั้ย?" },
             { href: "/aboutme/whydev", title: "ทำไมถึงเป็นนักพัฒนา?", desc: "อะไรที่ทำให้ผมสนใจการเขียนโปรแกรม?" },
-            { href: "/aboutme/goal", title: "เป้าหมายในอนาคต", desc: "ผมอยากเป็นอะไรในอนาคต?" },
+            { href: "/aboutme/goal", title: "เป้าหมายในอนาคต?", desc: "ผมอยากเป็นอะไรในอนาคต?" },
+            { href: "/aboutme/how_i_started", title: "เริ่มได้ยังไง?", desc: "ผมเริ่มต้นการพัฒนาโปรแกรมอย่างไร?" },
+            { href: "/aboutme/other", title: "เรื่องอื่นๆ ที่อยากแบ่งปัน", desc: "เรื่องอื่นๆ ไม่รู้ว่าจะเอาไปใส่ไว้ตรงไหน" },
           ].map((item) => (
             <Link
               key={item.href}
