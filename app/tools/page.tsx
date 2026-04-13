@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { ArrowUpRight, BrainCircuit, Globe, Sparkles, Play, Clock, Braces} from "lucide-react";
+import { ArrowUpRight, BrainCircuit, Globe, Sparkles, Play, Clock, Braces,BringToFront} from "lucide-react";
 import { motion } from "framer-motion";
 import FadeIn from "@/components/FadeIn";
 import VideoModal from "@/components/VideoModal";
@@ -14,7 +14,7 @@ const tools = [
     icon: Globe,
     title: "Personal Website",
     desc: "เว็บไซต์ส่วนตัวที่ทำด้วย Next.js + Tailwind CSS",
-    tags: ["Next.js", "TypeScript"],
+    tags: ["NEXT.JS", "TYPESCRIPT"],
     status: "live",
   },
   {
@@ -22,7 +22,7 @@ const tools = [
     icon: BrainCircuit,
     title: "Typing Speed Test",
     desc: "ทดสอบความเร็วในการพิมพ์ของคุณ",
-    tags: ["JavaScript", "HTML", "CSS"],
+    tags: ["JAVASCRIPT", "HTML", "CSS"],
     status: "live",
   },
   {
@@ -30,7 +30,15 @@ const tools = [
     icon: Braces,
     title: "Morse Code Translator",
     desc: "แปลงข้อความเป็นรหัสมอร์สและกลับกัน",
-    tags: ["html", "javascript", "css"],
+    tags: ["HTML", "JAVASCRIPT", "CSS"],
+    status: "live",
+  },
+  {
+    href: "https://code-to-image-conversion.vercel.app/",
+    icon: BringToFront,
+    title: "Code to image conversion",
+    desc: "แปลง code เป็น visual content 9:16",
+    tags: ["HTML", "JAVASCRIPT", "CSS"],
     status: "live",
   },
   {
@@ -41,6 +49,7 @@ const tools = [
     tags: ["Next.js", "TypeScript", "OpenAI API"],
     status: "wip",
   },
+  
 ];
 
 const videos = [
