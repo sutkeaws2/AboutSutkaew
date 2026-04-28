@@ -27,7 +27,7 @@ export default function AboutPage() {
           <span className="sutkaew"style={{ fontWeight: 'bold' }}> สิทธินนท์ สุดแก้ว</span>
         </h1>
         <p className="text-subtext leading-relaxed max-w-xl mb-10">
-          ผมเป็น Backend Developer & Game Developer ปัจจุบันอยู่ชั้นมัธยมปลายปีที่ 4 ที่โรงเรียนนครไทย ปัจจุบันกำลังศึกษาและพัฒนาทักษะด้าน Full-Stack Development & Game Development ด้วย Unity และ Unreal Engine แต่จะชอบ Roblox มากกว่า นอกจากการเขียนโค้ดแล้วผมชอบเล่นเกม
+          ผมเป็น Backend Developer & Game Developer ปัจจุบันอยู่ชั้นมัธยมปลายปีที่ 4 ที่โรงเรียนนครไทย ปัจจุบันกำลังศึกษาและพัฒนาทักษะด้าน Backend Development & Game Development นอกจากการเขียนโค้ดแล้วผมชอบเล่นเกม
         </p>
       </FadeIn>
 
