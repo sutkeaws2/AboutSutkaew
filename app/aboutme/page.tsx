@@ -5,7 +5,48 @@ import Link from "next/link";
 import { ArrowUpRight, Code2, BrainIcon, Music, Globe } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 const skills = [
-  "TypeScript", "React", "Next.js", "Node.js","Python", "Tailwind CSS", "PostgreSQL", "Docker","Assembly","C++","C#","Php","Java","Lua"
+
+  "JavaScript",
+  "TypeScript",
+  "Tailwind",
+  "Python",
+  "React",
+  "Vue.js",
+  "Vite",
+  "Golang",
+  "C++",
+  "Lua",
+  "Bun",
+  "Bootstrap",
+  "DaisyUI",
+  "MUI",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "PHP",
+  "MySQL",
+  "MongoDB",
+  "Firebase",
+  "Git",
+  "Docker",
+  "Vercel",
+  "Netlify",
+  "Nginx",
+  "Cloudflare",
+  "AWS",
+  "Linux",
+  "Ubuntu",
+  "Windows",
+  "Figma",
+  "Postman",
+  "Arduino",
+  "ESP32",
+  "Raspberry Pi",
+  "Unity",
+  "Unreal",
+  "Godot",
+  "Blender",
+  "Photoshop",
 ];
 
 const interests = [
@@ -35,7 +76,7 @@ export default function AboutPage() {
       <FadeIn delay={0.1}>
         <div className="mb-10">
           <h2 className="text-xs font-mono text-subtext uppercase tracking-widest mb-4">
-            Tech Stack & Skills
+            Tech Stack & Skills 
           </h2>
           <div className="flex flex-wrap gap-2">
             {skills.map((skill) => (
