@@ -30,7 +30,7 @@ const contacts = [
     handle: "ส่วนใหญ่จะออนไลน์ตอนเย็นๆ",
   },
   {
-    href: "mailto:actcementmajor@gmail.com",
+    href: "mailto:waektuskali@gmail.com",
     icon: Mail,
     label: "Email",
     handle: "ติดต่อโดยตรงถ้าว่างจะอ่านครับ",
